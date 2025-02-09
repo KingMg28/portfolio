@@ -2,6 +2,15 @@ export const AboutMe = {
   Info: " I am a Full Stack Developer with a passion for creating beautiful and functional websites. I have experience in developing web applications using modern technologies like React, Next.js, Node.js, Express and MongoDB.",
 };
 
+export const SocialLinks = {
+  github: "https://github.com/Mohammad-MT",
+  linkedin: "",
+  twitter: "",
+  email: "",
+  instagram: "https://www.instagram.com/mohammad_mt_28/",
+  discord: "https://discord.gg/5AWQ6vCB",
+};
+
 export const projects = [
   {
     id: 1,
@@ -12,7 +21,7 @@ export const projects = [
       "https://res.cloudinary.com/dzv86ea9r/image/upload/v1739051189/Screenshot_2025-02-09_011444_v4oboj.png",
     tags: ["React", "NodeJS", "Express", "MySql"],
     link: "a",
-    gitHubLink: "https://github.com/KingMg28/E-Commerce",
+    gitHubLink: "https://github.com/Mohammad-MT/E-Commerce",
   },
   {
     id: 2,
@@ -23,7 +32,7 @@ export const projects = [
       "https://res.cloudinary.com/dzv86ea9r/image/upload/v1739051532/Screenshot_2025-02-09_012136_btebsp.png",
     tags: ["React", "NodeJS", "Express", "MongoDB", "Socket.io"],
     link: "a",
-    gitHubLink: "a",
+    gitHubLink: "https://github.com/Mohammad-MT/Mern-Online-ChatApp",
   },
   {
     id: 3,
@@ -34,6 +43,6 @@ export const projects = [
       "https://res.cloudinary.com/dzv86ea9r/image/upload/v1739051623/Screenshot_2025-02-09_012333_znt5ao.png",
     tags: ["NextJS", "Framer Motion"],
     link: "/",
-    gitHubLink: "https://github.com/KingMg28/portfolio",
+    gitHubLink: "https://github.com/Mohammad-MT/portfolio",
   },
 ];
