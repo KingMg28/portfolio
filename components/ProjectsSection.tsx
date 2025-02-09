@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-// import Image from "next/image";
+import Image from "next/image";
 import { projects } from "@/data/index";
 import { FaCode, FaEye } from "react-icons/fa";
 import { motion } from "framer-motion";
@@ -22,7 +22,7 @@ const ProjectsSection = () => {
               key={id}
               className="project-item relative w-fit  bg-neutral-900  border border-neutral-700 p-4 rounded-xl shadow-lg hover:shadow-pink-800 hover:scale-105 transition-all duration-500"
             >
-              <img
+              <Image
                 src={image}
                 alt={title}
                 height={500}

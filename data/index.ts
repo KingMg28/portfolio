@@ -8,8 +8,7 @@ export const projects = [
     title: "E-Commerce Shop",
     description:
       "A fully functional e-commerce shop built with React and Node.js, featuring product listings, shopping cart, and checkout functionality.",
-    image:
-      "https://res.cloudinary.com/dzv86ea9r/image/upload/v1739051189/Screenshot_2025-02-09_011444_v4oboj.png",
+    image: "../public/imgs/E-commerce.png",
     tags: ["React", "NodeJS", "Express", "MySql"],
     link: "a",
     gitHubLink: "https://github.com/KingMg28/E-Commerce",
@@ -19,8 +18,7 @@ export const projects = [
     title: "Chat App",
     description:
       "A real-time chat application built with React, Node.js, and Socket.io, featuring multiple chat rooms and user authentication.",
-    image:
-      "https://res.cloudinary.com/dzv86ea9r/image/upload/v1739051532/Screenshot_2025-02-09_012136_btebsp.png",
+    image: "../public/imgs/Chat-app.png",
     tags: ["React", "NodeJS", "Express", "MongoDB", "Socket.io"],
     link: "a",
     gitHubLink: "a",
@@ -30,10 +28,9 @@ export const projects = [
     title: "Portfolio Website",
     description:
       "A personal portfolio website to showcase my projects and skills, built with NextJS.",
-    image:
-      "https://res.cloudinary.com/dzv86ea9r/image/upload/v1739051623/Screenshot_2025-02-09_012333_znt5ao.png",
+    image: "../public/imgs/Portfolio.png",
     tags: ["NextJS", "Framer Motion"],
-    link: "a",
-    gitHubLink: "a",
+    link: "/",
+    gitHubLink: "https://github.com/KingMg28/portfolio",
   },
 ];
