@@ -25,6 +25,7 @@ const ProjectsSection = () => {
               <Image
                 src={image}
                 alt={title}
+                width={380}
                 height={500}
                 className="rounded-lg max-h-[385px] w-full object-center"
               />
